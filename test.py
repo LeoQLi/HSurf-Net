@@ -234,7 +234,7 @@ def test(ckpt_dir, ckpt_iter):
 
         if data_trans is not None:
             ### transform predictions with inverse PCA rotation (back to world space)
-            n_est[:, :] = torch.bmm(n_est.unsqueeze(1), data_trans.transpose(2, 1)).squeeze(dim=1)
+            n_est = torch.bmm(n_est.unsqueeze(1), data_trans.transpose(2, 1)).squeeze(dim=1)
 
         ### Save the estimated normals to file
         batch_offset = 0

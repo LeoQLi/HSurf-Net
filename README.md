@@ -79,10 +79,14 @@ Our normal estimation results on the datasets PCPNet, SceneNN and Semantic3D can
 ## Citation
 If you find our work useful in your research, please cite our paper:
 
-    @article{li2022hsurf,
-      title={{HSurf-Net}: Normal Estimation for {3D} Point Clouds by Learning Hyper Surfaces},
-      author={Li, Qing and Liu, Yu-Shen and Cheng, Jin-San and Wang, Cheng and Fang, Yi and Han, Zhizhong},
-      journal={Advances in Neural Information Processing Systems (NeurIPS)},
-      year={2022}
+    @inproceedings{li2022hsurf,
+    author = {Li, Qing and Liu, Yu-Shen and Cheng, Jin-San and Wang, Cheng and Fang, Yi and Han, Zhizhong},
+    booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+    editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+    pages = {4218--4230},
+    publisher = {Curran Associates, Inc.},
+    title = {{HSurf-Net}: Normal Estimation for {3D} Point Clouds by Learning Hyper Surfaces},
+    url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/1b115b1feab2198dd0881c57b869ddb7-Paper-Conference.pdf},
+    volume = {35},
+    year = {2022}
     }
-
